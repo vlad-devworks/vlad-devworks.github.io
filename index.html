@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vlad R. · Booking, chat and lead follow-up for local businesses</title>
+    <meta
+      name="description"
+      content="Independent developer building online booking, website chat assistants and instant lead follow-up for dental offices, auto shops and home service companies."
+    />
+    <meta property="og:title" content="Vlad R. · Web & automation developer" />
+    <meta
+      property="og:description"
+      content="Online booking, website chat and lead follow-up for small local businesses. Three working demos with source code."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    />
+  </head>
+  <body class="home">
+    <header class="masthead wrap">
+      <a class="masthead__name" href="./">Vlad R.</a>
+      <p class="masthead__meta">
+        Independent developer · Ukraine · <time id="my-time">--:--</time> my time
+      </p>
+      <nav class="masthead__nav" aria-label="Sections">
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <p class="hero__kicker">
+          For dental offices, auto shops, home services and other local businesses
+        </p>
+        <h1>
+          <span class="hero__muted">Your front desk closes at six.</span>
+          Your website doesn't have&nbsp;to.
+        </h1>
+
+        <div class="hero__grid">
+          <div>
+            <p class="hero__lede">
+              I build online booking, website chat assistants and instant lead follow-up, so the
+              people who find you after hours become customers instead of missed calls. Small,
+              fixed-price projects that plug into the website and tools you already use.
+            </p>
+            <div class="hero__ctas">
+              <a
+                class="button"
+                href="mailto:vlad.devworks.pro@gmail.com?subject=Website%20idea%20for%20my%20business"
+                >Email me about your business</a
+              >
+              <a class="text-link" href="#work">See the three demos</a>
+            </div>
+          </div>
+
+          <aside class="now" aria-labelledby="now-title">
+            <p class="now__label" id="now-title">Right now in Austin, TX</p>
+            <p class="now__time" id="austin-time">--:--</p>
+            <dl class="now__rows">
+              <div>
+                <dt>Brightside Dental front desk</dt>
+                <dd id="desk-status">…</dd>
+              </div>
+              <div>
+                <dt>Their online booking</dt>
+                <dd>
+                  <span id="open-slots">…</span> open this week ·
+                  <a href="https://vlad-devworks.github.io/online-booking-demo/">try it</a>
+                </dd>
+              </div>
+            </dl>
+            <p class="now__note">
+              Brightside is a demo clinic. These figures come from the same code that runs its
+              booking page.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section wrap" id="work" aria-labelledby="work-title">
+        <header class="section__head">
+          <h2 id="work-title">Three things I build</h2>
+          <p>
+            Each demo is a working front end with the real logic behind it: availability rules,
+            question matching, lead triage. Click around, break things, then read the code.
+          </p>
+        </header>
+
+        <article class="work">
+          <p class="work__num">01</p>
+          <div class="work__body">
+            <h3>
+              <a href="https://vlad-devworks.github.io/online-booking-demo/">Online booking</a>
+            </h3>
+            <p class="work__for">Dental and medical offices, salons, auto repair, cleaning</p>
+            <p class="work__problem">
+              New patients can only book by phone. After 6 pm they close the tab and call whoever
+              picks up first in the morning.
+            </p>
+            <p>
+              Patients choose a visit and an open time from the website, any hour. The front desk
+              sees it on the schedule straight away. It respects lunch breaks, which provider does
+              which visit, two hours' notice, and never double-books, even from two tabs at once.
+            </p>
+            <ul class="work__tags">
+              <li>Availability engine</li>
+              <li>Text confirmation</li>
+              <li>Add to calendar</li>
+              <li>Google Calendar / Outlook sync in client builds</li>
+            </ul>
+          </div>
+          <div class="work__side">
+            <div class="specimen specimen--slots" aria-hidden="true">
+              <span>Tue 17</span>
+              <i>8:00</i><i class="is-off">8:30</i><i>9:00</i><i class="is-on">9:30</i><i>10:00</i
+              ><i class="is-off">10:30</i>
+            </div>
+            <div class="work__links">
+              <a
+                class="button button--small"
+                href="https://vlad-devworks.github.io/online-booking-demo/"
+                >Open demo</a
+              >
+              <a class="text-link" href="https://github.com/vlad-devworks/online-booking-demo"
+                >Code ↗</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="work">
+          <p class="work__num">02</p>
+          <div class="work__body">
+            <h3>
+              <a href="https://vlad-devworks.github.io/chat-assistant-demo/"
+                >Website chat assistant</a
+              >
+            </h3>
+            <p class="work__for">Any business that answers the same ten questions every day</p>
+            <p class="work__problem">
+              "Are you open Saturday?" "How much is an oil change?" The phone rings with the same
+              questions while the one person who can answer is under a car.
+            </p>
+            <p>
+              A chat on the website that answers from the owner's own notes and nothing else. When
+              it doesn't know, it says so. When someone wants to book, it collects name, number and
+              details and texts the owner a ready-to-call summary.
+            </p>
+            <ul class="work__tags">
+              <li>Answers only from your info</li>
+              <li>Hands off by text</li>
+              <li>Logs unanswered questions</li>
+            </ul>
+          </div>
+          <div class="work__side">
+            <div class="specimen specimen--chat" aria-hidden="true">
+              <i class="them">Open Saturday?</i>
+              <i>Yes, 8 am to 2 pm. Want me to book you in?</i>
+            </div>
+            <div class="work__links">
+              <a
+                class="button button--small"
+                href="https://vlad-devworks.github.io/chat-assistant-demo/"
+                >Open demo</a
+              >
+              <a class="text-link" href="https://github.com/vlad-devworks/chat-assistant-demo"
+                >Code ↗</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="work">
+          <p class="work__num">03</p>
+          <div class="work__body">
+            <h3>
+              <a href="https://vlad-devworks.github.io/lead-followup-demo/"
+                >Instant lead follow-up</a
+              >
+            </h3>
+            <p class="work__for">Plumbers, HVAC, electricians, contractors, clinics</p>
+            <p class="work__problem">
+              Quote requests sit in an inbox over the weekend. By Monday the customer has hired
+              someone else.
+            </p>
+            <p>
+              Every form, missed call and message gets a text back in under a minute, worded for the
+              problem and for whether you're open. Emergencies reach a person; routine jobs get a
+              booking link. Everything lands in one list you can export.
+            </p>
+            <ul class="work__tags">
+              <li>Urgency triage</li>
+              <li>After-hours wording</li>
+              <li>Missed-call text back</li>
+              <li>Google Sheets or CRM</li>
+            </ul>
+          </div>
+          <div class="work__side">
+            <div class="specimen specimen--timeline" aria-hidden="true">
+              <i><b>+0s</b> Form received</i>
+              <i><b>+3s</b> Plumbing · Emergency</i>
+              <i class="is-on"><b>+24s</b> Text sent</i>
+              <i class="is-hot"><b>+26s</b> Owner alerted</i>
+            </div>
+            <div class="work__links">
+              <a
+                class="button button--small"
+                href="https://vlad-devworks.github.io/lead-followup-demo/"
+                >Open demo</a
+              >
+              <a class="text-link" href="https://github.com/vlad-devworks/lead-followup-demo"
+                >Code ↗</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section wrap" id="process" aria-labelledby="process-title">
+        <header class="section__head">
+          <h2 id="process-title">How a project goes</h2>
+        </header>
+        <ol class="steps">
+          <li>
+            <h3>You tell me what's slipping</h3>
+            <p>
+              A short email or a 15-minute call: missed calls, slow replies, a booking form nobody
+              uses.
+            </p>
+          </li>
+          <li>
+            <h3>One page, one price</h3>
+            <p>
+              What I'll build, how it fits your current tools, the price and the date. No hourly
+              billing.
+            </p>
+          </li>
+          <li>
+            <h3>You see it early</h3>
+            <p>
+              A preview link within days and short video updates. Most projects take one to two
+              weeks.
+            </p>
+          </li>
+          <li>
+            <h3>Launch, then 30 days of fixes</h3>
+            <p>
+              I install it, test it with you, and fix anything that comes up in the first month.
+            </p>
+          </li>
+        </ol>
+        <div class="terms">
+          <p class="terms__price">$300 – $1,500 <span>per project, fixed</span></p>
+          <p>
+            50% to start, 50% when it's live and working. Optional monthly care plan for changes and
+            updates.
+          </p>
+        </div>
+      </section>
+
+      <section class="section wrap about" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">You talk to the person who writes the code</h2>
+        <div>
+          <p>
+            I'm a software developer in Ukraine, working remotely with small businesses in the US,
+            Canada and the UK. No agency, no account manager. You email me, I build it, and I'm the
+            one who answers when something needs changing.
+          </p>
+          <p>
+            I keep projects small on purpose: one clear problem, one fixed price, and something you
+            can see working within days. The businesses in the demos are made up so you can try
+            exactly what your customers would see.
+          </p>
+          <dl class="facts">
+            <div>
+              <dt>Works with</dt>
+              <dd>
+                WordPress, Wix, Squarespace, Google Calendar, Outlook, Google Sheets, HubSpot,
+                Twilio
+              </dd>
+            </div>
+            <div>
+              <dt>Built with</dt>
+              <dd>TypeScript and JavaScript, Python, .NET, REST APIs</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Overlap with US East Coast mornings and UK afternoons</dd>
+            </div>
+            <div>
+              <dt>Replies</dt>
+              <dd>Within one business day</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="contact" id="contact">
+      <div class="wrap">
+        <h2>Tell me what's costing you customers</h2>
+        <p>
+          Send your website address and a line about the business. I'll reply with one or two
+          concrete ideas, whether or not we end up working together.
+        </p>
+        <a
+          class="contact__mail"
+          href="mailto:vlad.devworks.pro@gmail.com?subject=Website%20idea%20for%20my%20business"
+          >vlad.devworks.pro@gmail.com</a
+        >
+        <p class="contact__small">
+          © <span id="year">2026</span> Vlad R. · Yampil, Sumy Oblast, Ukraine ·
+          <a href="%VITE_REPO_URL%">Source of this site</a>
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
