@@ -2,8 +2,8 @@
 
 Source of my portfolio site: https://vlad-devworks.github.io
 
-I build online booking, website chat assistants and instant lead follow-up for small local
-businesses. The demos have their own repositories:
+I build online booking, website chat assistants, instant lead follow-up, customer bots and
+in-house tools for small local businesses. Each project has its own repository:
 
 - [online-booking-demo](https://github.com/vlad-devworks/online-booking-demo): booking widget
   and front desk schedule for a dental clinic
@@ -11,6 +11,10 @@ businesses. The demos have their own repositories:
   an auto repair shop
 - [lead-followup-demo](https://github.com/vlad-devworks/lead-followup-demo): instant replies and
   a lead inbox for a home services company
+- [repair-status-bot](https://github.com/vlad-devworks/repair-status-bot): Telegram bot that
+  keeps auto repair customers updated and takes approvals for extra work (Python)
+- [dispatch-board](https://github.com/vlad-devworks/dispatch-board): Windows app for planning a
+  home services crew's day, with live conflict checks and auto-schedule (C#, WPF)
 
 The "Right now in Austin" card on the page uses the booking demo's availability code to show
 whether the demo clinic is open and how many slots are free this week.

@@ -365,6 +365,89 @@
   font-weight: 600;
 }
 
+.specimen--approve {
+  display: grid;
+  gap: 6px;
+}
+
+.specimen--approve i {
+  padding: 7px 11px;
+  border-radius: 14px 14px 14px 4px;
+  background: #f1f2f3;
+}
+
+.specimen--approve span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.specimen--approve b {
+  padding: 5px 0;
+  border-radius: 6px;
+  background: #e6eced;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+
+.specimen--approve .wide {
+  grid-column: 1 / -1;
+}
+
+.specimen--approve .is-on {
+  background: #0f5c60;
+  color: #fff;
+}
+
+.specimen--board {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 7px 8px;
+  align-items: center;
+}
+
+.specimen--board span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.specimen--board div {
+  position: relative;
+  height: 24px;
+  border-radius: 3px;
+  background: repeating-linear-gradient(90deg, #e9edef 0 1px, #fafbfb 1px 12.5%);
+}
+
+.specimen--board i {
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: var(--x);
+  width: var(--w);
+  border-left: 3px solid;
+  border-radius: 3px;
+}
+
+.specimen--board .p {
+  border-color: #2f6fb5;
+  background: #e4eef8;
+}
+
+.specimen--board .h {
+  border-color: #c2571a;
+  background: #fbebe0;
+}
+
+.specimen--board .e {
+  border-color: #b08600;
+  background: #fcf4d4;
+}
+
+.specimen--board .is-bad {
+  box-shadow: 0 0 0 2px #b3261e;
+}
+
 /* ---- Process ------------------------------------------------------------- */
 
 .steps {

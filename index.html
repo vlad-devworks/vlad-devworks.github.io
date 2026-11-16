@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Vlad R. · Booking, chat and lead follow-up for local businesses</title>
+    <title>Vlad R. · Booking, bots and business tools for local businesses</title>
     <meta
       name="description"
-      content="Independent developer building online booking, website chat assistants and instant lead follow-up for dental offices, auto shops and home service companies."
+      content="Independent developer building online booking, website chat, lead follow-up, customer bots and in-house tools for dental offices, auto shops and home service companies."
     />
     <meta property="og:title" content="Vlad R. · Web & automation developer" />
     <meta
       property="og:description"
-      content="Online booking, website chat and lead follow-up for small local businesses. Three working demos with source code."
+      content="Online booking, website chat, lead follow-up, a repair status bot and a crew dispatch app for small local businesses. Five working projects with source code."
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,8 +49,9 @@
           <div>
             <p class="hero__lede">
               I build online booking, website chat assistants and instant lead follow-up, so the
-              people who find you after hours become customers instead of missed calls. Small,
-              fixed-price projects that plug into the website and tools you already use.
+              people who find you after hours become customers instead of missed calls. And the
+              tools behind the counter: bots that keep customers posted, and apps that plan the day
+              for your crews. Small, fixed-price projects that plug into what you already use.
             </p>
             <div class="hero__ctas">
               <a
@@ -58,7 +59,7 @@
                 href="mailto:vlad.devworks.pro@gmail.com?subject=Website%20idea%20for%20my%20business"
                 >Email me about your business</a
               >
-              <a class="text-link" href="#work">See the three demos</a>
+              <a class="text-link" href="#work">See the work</a>
             </div>
           </div>
 
@@ -88,10 +89,11 @@
 
       <section class="section wrap" id="work" aria-labelledby="work-title">
         <header class="section__head">
-          <h2 id="work-title">Three things I build</h2>
+          <h2 id="work-title">Five things I build</h2>
           <p>
-            Each demo is a working front end with the real logic behind it: availability rules,
-            question matching, lead triage. Click around, break things, then read the code.
+            Each one is working software with the real logic behind it: availability rules, question
+            matching, lead triage, repair approvals, crew scheduling. The first three run in your
+            browser; the bot and the desktop app come with source and a download.
           </p>
         </header>
 
@@ -223,6 +225,107 @@
             </div>
           </div>
         </article>
+
+        <article class="work">
+          <p class="work__num">04</p>
+          <div class="work__body">
+            <h3>
+              <a href="https://github.com/vlad-devworks/repair-status-bot">Repair status bot</a>
+            </h3>
+            <p class="work__for">Auto repair, appliance and device repair shops</p>
+            <p class="work__problem">
+              Half the calls are "is my car ready yet?" And when a technician finds a worn part, the
+              car sits on the lift until someone gets the owner on the phone to approve it.
+            </p>
+            <p>
+              A Telegram bot that keeps customers posted as the car moves through the shop, and
+              sends extra work for approval with one tap: approve, decline or call me first. The
+              service desk runs it from their own phone. Nothing goes out after 9 pm; updates made
+              at night are reworded and sent in the morning.
+            </p>
+            <ul class="work__tags">
+              <li>Status updates</li>
+              <li>One-tap approvals</li>
+              <li>Quiet hours</li>
+              <li>Python</li>
+              <li>Same logic over SMS or WhatsApp</li>
+            </ul>
+          </div>
+          <div class="work__side">
+            <div class="specimen specimen--approve" aria-hidden="true">
+              <i>Your technician recommends extra work: front brake pads and rotors, $180.00</i>
+              <span
+                ><b class="is-on">Approve $180</b><b>Decline</b
+                ><b class="wide">Call me first</b></span
+              >
+            </div>
+            <div class="work__links">
+              <a
+                class="button button--small"
+                href="https://github.com/vlad-devworks/repair-status-bot#example"
+                >See it work</a
+              >
+              <a class="text-link" href="https://github.com/vlad-devworks/repair-status-bot"
+                >Code ↗</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="work">
+          <p class="work__num">05</p>
+          <div class="work__body">
+            <h3>
+              <a href="https://github.com/vlad-devworks/dispatch-board">Crew dispatch board</a>
+            </h3>
+            <p class="work__for">Plumbing, HVAC, electrical, cleaning: any business with crews</p>
+            <p class="work__problem">
+              The day is planned on a whiteboard. Two jobs land at the same time, a tech gets ten
+              minutes to cross town, and a customer told "morning" sees someone at 1 pm.
+            </p>
+            <p>
+              A Windows app for whoever plans the day. Drag jobs onto technicians and it checks
+              everything as you go: overlaps, drive time between stops, the customer's arrival
+              window, shifts, who does which trade. Auto-schedule fills the gaps, then it prints a
+              route sheet for each tech.
+            </p>
+            <ul class="work__tags">
+              <li>Drag and drop</li>
+              <li>Live conflict checks</li>
+              <li>Auto-schedule</li>
+              <li>Route sheets</li>
+              <li>C# / .NET</li>
+            </ul>
+          </div>
+          <div class="work__side">
+            <div class="specimen specimen--board" aria-hidden="true">
+              <span>Marcus</span>
+              <div>
+                <i class="p" style="--x: 6%; --w: 24%"></i
+                ><i class="p" style="--x: 40%; --w: 22%"></i>
+              </div>
+              <span>Dee</span>
+              <div>
+                <i class="h" style="--x: 12%; --w: 30%"></i
+                ><i class="h is-bad" style="--x: 36%; --w: 14%"></i>
+              </div>
+              <span>Sam</span>
+              <div>
+                <i class="e" style="--x: 10%; --w: 12%"></i
+                ><i class="e" style="--x: 30%; --w: 26%"></i
+                ><i class="e" style="--x: 66%; --w: 22%"></i>
+              </div>
+            </div>
+            <div class="work__links">
+              <a
+                class="button button--small"
+                href="https://github.com/vlad-devworks/dispatch-board/releases/latest"
+                >Download for Windows</a
+              >
+              <a class="text-link" href="https://github.com/vlad-devworks/dispatch-board">Code ↗</a>
+            </div>
+          </div>
+        </article>
       </section>
 
       <section class="section wrap" id="process" aria-labelledby="process-title">
@@ -290,7 +393,7 @@
             </div>
             <div>
               <dt>Built with</dt>
-              <dd>TypeScript and JavaScript, Python, .NET, REST APIs</dd>
+              <dd>TypeScript and JavaScript, Python, C# and .NET, REST APIs, Telegram bots</dd>
             </div>
             <div>
               <dt>Hours</dt>
@@ -318,7 +421,8 @@
           >vlad.devworks.pro@gmail.com</a
         >
         <p class="contact__small">
-          © <span id="year">2026</span> Vlad R. · Yampil, Sumy Oblast, Ukraine ·
+          © <span id="year">2026</span> Vlad R. ·
+          <a href="https://github.com/vlad-devworks">GitHub</a> ·
           <a href="%VITE_REPO_URL%">Source of this site</a>
         </p>
       </div>
